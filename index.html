@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Trademia</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            name="keywords"
+            content="trading, estrategias de trading, análisis de mercados, aprendizaje trading, educación financiera, operaciones, gestión de riesgos, indicadores, señales de trading, formación en trading, desarrollo de habilidades de trading, análisis técnico, análisis fundamental, toma de decisiones en trading, rendimiento en trading"
+        />
+        <meta
+            name="description"
+            content="Recurso educativo dedicado al trading, ofreciendo guías paso a paso, estrategias y conocimientos prácticos para aprender a operar en mercados financieros con seguridad y confianza. Mejora tus habilidades de trading con información estructurada y de fácil comprensión."
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid nav-bar sticky-top px-4 py-2 py-lg-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a
+                    href=""
+                    class="navbar-brand p-0"
+                    style="display: flex; align-items: center"
+                >
+                    <h1 class="display-6 text-dark">Trademia</h1>
+                    <img src="img/logo.png" alt="Logo" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse"
+                >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div
+                        class="navbar-nav mx-auto py-0"
+                        style="margin-right: 0px !important"
+                    >
+                        <a href="index.html" class="nav-item nav-link"
+                            >Inicio</a
+                        >
+                        <a href="about.html" class="nav-item nav-link"
+                            >Sobre Nosotros</a
+                        >
+                        <a href="service.html" class="nav-item nav-link"
+                            >Estrategias de Trading</a
+                        >
+                        <a href="testimonial.html" class="nav-item nav-link"
+                            >Testimonios</a
+                        >
+                        <a href="contact.html" class="nav-item nav-link"
+                            >Contacto</a
+                        >
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-1.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container align-items-center py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Estrategias de Trading Efectivas
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Aprende a operar con confianza
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Descubre técnicas de análisis de
+                                        mercados, gestión de riesgos y toma de
+                                        decisiones inteligentes. Nuestro
+                                        contenido educativo te guía paso a paso
+                                        para mejorar tus habilidades de trading
+                                        y aumentar tu comprensión de los
+                                        mercados.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <img
+                    src="img/carousel-2.jpg"
+                    class="img-fluid w-100"
+                    alt="Image"
+                />
+                <div class="carousel-caption">
+                    <div class="container py-4">
+                        <div class="row g-5 align-items-center">
+                            <div
+                                class="col-xl-7 fadeInLeft animated"
+                                data-animation="fadeInLeft"
+                                data-delay="1s"
+                                style="animation-delay: 1s"
+                            >
+                                <div class="text-start">
+                                    <h4
+                                        class="text-primary text-uppercase fw-bold mb-4"
+                                    >
+                                        Conocimiento práctico para traders
+                                    </h4>
+                                    <h1
+                                        class="display-4 text-uppercase text-white mb-4"
+                                    >
+                                        Mejora tu rendimiento en los mercados
+                                    </h1>
+                                    <p class="mb-4 fs-5">
+                                        Aprende a interpretar gráficos, aplicar
+                                        indicadores y diseñar tus propias
+                                        estrategias de trading. Nuestro enfoque
+                                        educativo te permite practicar con
+                                        confianza y comprender el comportamiento
+                                        de los mercados de forma clara y
+                                        estructurada.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-1.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Análisis de Mercados
+                                    </h4>
+                                    <p class="text-white">
+                                        Aprende a interpretar datos, gráficos y
+                                        patrones para tomar decisiones
+                                        informadas en tus operaciones de
+                                        trading. Estrategias claras y aplicables
+                                        para traders de todos los niveles.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item">
+                            <img
+                                src="img/feature-2.jpg"
+                                class="img-fluid rounded w-100"
+                                alt="Image"
+                            />
+                            <div class="feature-content p-4">
+                                <div class="feature-content-inner">
+                                    <h4 class="text-white">
+                                        Gestión de Riesgos
+                                    </h4>
+                                    <p class="text-white">
+                                        Comprende la importancia de controlar
+                                        riesgos en tus operaciones. Aprende
+                                        técnicas de planificación, gestión de
+                                        capital y evaluación de escenarios para
+                                        operar con seguridad.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about pb-5">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">Nuestro Enfoque</h4>
+                            <h1 class="display-5 mb-4">
+                                Educación y Estrategias de Trading
+                            </h1>
+                            <p class="mb-5">
+                                Ofrecemos contenido educativo exclusivo para
+                                aprender trading de manera práctica y
+                                estructurada. Desde análisis de mercados,
+                                gestión de riesgos hasta diseño de estrategias
+                                personales, nuestro material ayuda a comprender
+                                los mercados y tomar decisiones con confianza.
+                                Todo el contenido está diseñado para ser claro,
+                                directo y útil, sin complicaciones, adaptado a
+                                traders de todos los niveles.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="position-relative rounded">
+                            <div class="rounded" style="margin-top: 40px">
+                                <div class="row g-0">
+                                    <div class="col-lg-12">
+                                        <div class="rounded mb-4">
+                                            <img
+                                                src="img/approach.jpg"
+                                                class="img-fluid rounded w-100"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Ticket Packages Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div
+                        class="col-lg-12 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div class="packages-item h-100">
+                            <h4 class="text-primary">
+                                Estrategias y Técnicas de Trading
+                            </h4>
+                            <h1 class="display-5 mb-4">
+                                Mejora tu rendimiento en los mercados
+                            </h1>
+                            <p class="mb-4">
+                                Descubre métodos claros y efectivos para
+                                analizar gráficos, identificar tendencias y
+                                tomar decisiones inteligentes. Consejos
+                                prácticos para optimizar tus operaciones y
+                                aumentar tu conocimiento sobre el trading, todo
+                                de manera educativa y estructurada.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                            style="background: #e7e7e7 !important"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Análisis de Mercado
+                                </h2>
+                                <p class="mb-4">
+                                    Aprende a interpretar gráficos, identificar
+                                    patrones y evaluar datos de manera efectiva.
+                                    Este conocimiento te permitirá tomar
+                                    decisiones fundamentadas y planificar tus
+                                    operaciones con seguridad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-xl-4 wow fadeInUp"
+                        data-wow-delay="0.4s"
+                    >
+                        <div
+                            class="pricing-item bg-dark rounded text-center p-5 h-100"
+                            style="background: #e7e7e7 !important"
+                        >
+                            <div class="pb-4">
+                                <h2
+                                    class="mb-4 pb-4 text-primary border-bottom"
+                                >
+                                    Gestión de Riesgos
+                                </h2>
+                                <p class="mb-4">
+                                    Descubre técnicas para controlar riesgos y
+                                    proteger tu capital en cada operación.
+                                    Aprende a planificar, establecer límites y
+                                    evaluar escenarios para operar con confianza
+                                    y seguridad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ticket Packages End -->
+
+        <!-- Contact Start -->
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div
+                        class="col-12 col-xl-6 wow fadeInUp"
+                        data-wow-delay="0.2s"
+                    >
+                        <div>
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div
+                                        class="contact-add-item rounded bg-light p-5"
+                                    >
+                                        <div>
+                                            <h4>
+                                                Empieza a mejorar tus
+                                                habilidades de trading hoy mismo
+                                            </h4>
+                                            <p class="mb-0">
+                                                Ofrecemos contenido educativo
+                                                claro y práctico sobre análisis
+                                                de mercados, estrategias y
+                                                gestión de riesgos. Tanto
+                                                principiantes como traders con
+                                                experiencia pueden beneficiarse
+                                                de nuestros consejos y técnicas,
+                                                diseñadas para mejorar la
+                                                comprensión y la toma de
+                                                decisiones en operaciones de
+                                                manera educativa y segura.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="bg-light p-5 rounded h-100">
+                            <form>
+                                <div class="row g-4">
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control border-0"
+                                                id="name"
+                                                placeholder="Tu nombre"
+                                            />
+                                            <label for="name">Tu nombre</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control border-0"
+                                                id="email"
+                                                placeholder="Tu email"
+                                            />
+                                            <label for="email">Tu email</label>
+                                            <div
+                                                id="result"
+                                                style="
+                                                    color: red;
+                                                    font-size: 12px;
+                                                "
+                                            ></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control border-0"
+                                                placeholder="Deja tu mensaje"
+                                                id="message"
+                                                style="height: 160px"
+                                            ></textarea>
+                                            <label for="message">Mensaje</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-primary w-100 py-3"
+                                            id="submit"
+                                            onclick="sendForm()"
+                                        >
+                                            Enviar Mensaje
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog pb-5">
+            <div class="container pb-5">
+                <div
+                    class="text-center mx-auto pb-5 wow fadeInUp"
+                    data-wow-delay="0.2s"
+                    style="max-width: 800px"
+                >
+                    <h4 class="text-primary">Blog</h4>
+                    <h1 class="display-5 mb-4">
+                        Artículos educativos sobre trading y estrategias
+                    </h1>
+                    <p class="mb-0">
+                        Mantente al día con nuestros artículos sobre análisis de
+                        mercados, gestión de riesgos y desarrollo de estrategias
+                        inteligentes. Cada publicación está diseñada para
+                        ofrecer conocimiento práctico y educativo que te ayudará
+                        a mejorar tu comprensión del trading.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-1.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i> 19 agosto,
+                                    2025
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Técnicas de análisis de mercado para traders
+                                </a>
+                                <p class="mb-4">
+                                    Aprende a identificar tendencias, patrones y
+                                    señales clave en gráficos. Este artículo
+                                    ofrece métodos prácticos y educativos para
+                                    tomar decisiones más informadas y
+                                    estratégicas en tus operaciones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <a href="#">
+                                    <img
+                                        src="img/blog-2.jpg"
+                                        class="img-fluid w-100 rounded-top"
+                                        alt="Image"
+                                    />
+                                </a>
+                                <div class="blog-date">
+                                    <i class="fas fa-clock me-2"></i> 23
+                                    septiembre, 2025
+                                </div>
+                            </div>
+                            <div class="blog-content p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">
+                                    Gestión de riesgos efectiva para traders
+                                </a>
+                                <p class="mb-4">
+                                    Descubre estrategias para proteger tu
+                                    capital y minimizar pérdidas. Este artículo
+                                    explica técnicas educativas de
+                                    planificación, límites y evaluación de
+                                    escenarios que ayudan a operar con seguridad
+                                    y confianza.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.2s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white mb-4">
+                                    Estrategias y Educación en Trading
+                                </h4>
+                            </a>
+                            <p class="mb-2">
+                                Materiales educativos actualizados y prácticos
+                                para mejorar tus habilidades de análisis de
+                                mercados, desarrollo de estrategias y gestión de
+                                riesgos. Aprende de manera clara y aplicada para
+                                tomar decisiones más seguras y fundamentadas en
+                                tus operaciones.
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-map-marker-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    C. de Méndez Álvaro, 20, Arganzuela, 28045
+                                    Madrid
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fas fa-envelope text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">
+                                    trademia@gmail.com
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i
+                                    class="fa fa-phone-alt text-primary me-3"
+                                ></i>
+                                <p class="text-white mb-0">+34919032312</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                            <a href="index.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Inicio</a
+                            >
+                            <a href="about.html"
+                                ><i class="fas fa-angle-right me-2"></i> Sobre
+                                Nosotros</a
+                            >
+                            <a href="contact.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Contacto</a
+                            >
+                            <a href="terms-of-use.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Términos de Uso</a
+                            >
+                            <a href="privacy-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Privacidad</a
+                            >
+                            <a href="cookie-policy.html"
+                                ><i class="fas fa-angle-right me-2"></i>
+                                Política de Cookies</a
+                            >
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-5">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Horario de Atención</h4>
+                            <div class="opening-date mb-3 pb-3">
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Lunes - Viernes:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        10:00 - 18:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Sábado - Domingo:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 - 16:00
+                                    </p>
+                                </div>
+                                <div class="opening-clock flex-shrink-0">
+                                    <h6 class="text-white mb-0 me-auto">
+                                        Días festivos:
+                                    </h6>
+                                    <p class="mb-0">
+                                        <i
+                                            class="fas fa-clock text-primary me-2"
+                                        ></i>
+                                        11:00 - 15:00
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para brindarte una
+                    experiencia de navegación más relevante y eficiente.
+                    <a href="cookie-policy.html">Más información...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
